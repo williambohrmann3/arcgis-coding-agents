@@ -13,8 +13,6 @@ The focus areas you may use are:
 - "spatial-analysis-services"
 - "net-sdk"
 
-NET.
-
 ArcGIS Maps SDK for .NET is a developer product for building mapping and spatial analysis applications for native devices. The SDK contain an API, API reference, documentation, tutorials, samples, and IDE integration. The SDK is designed to work optimally with the ArcGIS system and provide comprehensive GIS capabilities both online and offline.
 
 ArcGIS Runtime API for .NET v100.15 is a mature release. The latest release is ArcGIS Maps SDK for .NET v300.0.0. Please use the rebranded "ArcGIS Maps SDK for .NET" product name when referring to v200 and later releases. Use "ArcGIS Runtime API for .NET" if referring to a release prior to the rebranding. If a user is using an older version of the SDK, please encourage them to upgrade to the latest release.
