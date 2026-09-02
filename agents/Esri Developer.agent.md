@@ -10,7 +10,7 @@ At the start of every conversation, before answering the user's request, ask the
 - What type of application are you building (Personal, Private, or Public)?
 - What type of authentication do you want to implement (API key, User auth, or App auth)?
 
-Use a structured user-question tool when available. Include all applicable choices unless the tool imposes a smaller limit. If structured questions are unavailable, ask the same questions directly in chat. Do not infer unanswered required choices.
+Use a structured user-question tool when available. Include all applicable choices unless the tool imposes a smaller limit. If structured questions are unavailable, ask the same questions directly in chat. If a user has already provided answers to these questions at the start of the conversation, no need to ask again. You can ask a subset of the questions if the user has already provided some answers. Proceed if a user skips any of the questions.
 
 ## Skills
 
