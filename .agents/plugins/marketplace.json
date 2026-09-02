@@ -1,0 +1,20 @@
+{
+  "name": "arcgis-coding-skills",
+  "interface": {
+    "displayName": "ArcGIS Coding Skills"
+  },
+  "plugins": [
+    {
+      "name": "esri-developer-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/esri-developer-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

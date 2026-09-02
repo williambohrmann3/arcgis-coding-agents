@@ -1,0 +1,21 @@
+{
+  "name": "arcgis-coding-skills",
+  "owner": {
+    "name": "Esri"
+  },
+  "description": "Coding skills for building Esri-powered applications.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "esri-developer-skills",
+      "description": "Coding skills for ArcGIS SDKs, APIs, and mapping libraries.",
+      "version": "0.1.0",
+      "source": "./plugins/esri-developer-skills",
+      "category": "developer-tools",
+      "tags": ["arcgis", "gis", "mapping"],
+      "author": { "name": "Esri" },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    }
+  ]
+}
