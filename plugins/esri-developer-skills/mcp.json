@@ -3,7 +3,7 @@
   "mcpServers": {
     "mcp-for-esri-developers": {
       "url": "https://developers-mcpdevext.arcgis.com/mcp",
-      "type": "streamable-http"
+      "type": "http"
     }
   }
 }
