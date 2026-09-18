@@ -1,7 +1,7 @@
 {
-  "name": "arcgis-coding-skills",
+  "name": "esri-developer-ai-tools",
   "interface": {
-    "displayName": "ArcGIS Coding Skills"
+    "displayName": "Esri Developer AI Tools"
   },
   "plugins": [
     {
