@@ -1,6 +1,6 @@
 # Esri Developer Skills
 
-An [Agent Plugins 1.0](https://agent-plugins.org/specification/) package containing Esri Developer skills, the **MCP for Esri Developers** server, and a Copilot custom agent.
+An [Agent Plugins 1.0](https://agent-plugins.org/specification/) package containing Esri Developer skills, the **MCP for Esri Developers** server, and an Esri Developer custom agent.
 
 ## Package
 
