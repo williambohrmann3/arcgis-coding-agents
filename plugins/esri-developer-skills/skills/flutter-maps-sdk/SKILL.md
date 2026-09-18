@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-flutter
+name: flutter-maps-sdk
 description: Use when building or troubleshooting Android or iOS applications with ArcGIS Maps SDK for Flutter.
 license: MIT
 ---

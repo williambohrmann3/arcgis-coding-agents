@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-dotnet
+name: dotnet-maps-sdk
 description: Use when building or troubleshooting WPF, .NET MAUI, or WinUI applications with ArcGIS Maps SDK for .NET.
 license: MIT
 ---

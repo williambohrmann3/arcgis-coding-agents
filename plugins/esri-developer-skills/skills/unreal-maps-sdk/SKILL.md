@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-unreal
+name: unreal-maps-sdk
 description: Use when building or troubleshooting Unreal Engine applications with ArcGIS Maps SDK for Unreal Engine.
 license: MIT
 ---

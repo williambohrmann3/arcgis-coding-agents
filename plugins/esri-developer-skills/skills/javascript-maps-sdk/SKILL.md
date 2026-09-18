@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-javascript
+name: javascript-maps-sdk
 description: Use when building or troubleshooting web applications with ArcGIS Maps SDK for JavaScript and its web component libraries.
 license: MIT
 ---
