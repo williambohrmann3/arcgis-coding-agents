@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "esri-developer-skills",
   "description": "Coding skills for ArcGIS SDKs, APIs, and mapping libraries.",
   "version": "0.1.0",
@@ -12,7 +13,5 @@
     "gis",
     "mapping",
     "developer-tools"
-  ],
-  "category": "developer-productivity",
-  "skills": "skills/"
+  ]
 }
