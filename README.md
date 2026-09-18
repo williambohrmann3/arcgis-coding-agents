@@ -30,6 +30,7 @@ The portable standard defines skills and MCP. Client-specific extensions, includ
 
 Use the client’s official documentation for the installation flow. Select or package the `plugins/esri-developer-skills` directory as the plugin source where the client supports Agent Plugins 1.0.
 
+- [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing)
 - [VS Code](https://code.visualstudio.com/docs/agent-customization/agent-plugins#_install-a-plugin-from-source)
 - [Claude Code](https://code.claude.com/docs/en/plugins#add-from-github)
 - [Cursor](https://cursor.com/docs/plugins#installing-plugins)
