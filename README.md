@@ -30,13 +30,13 @@ The portable standard defines skills and MCP. Client-specific extensions, includ
 
 Use the client’s official documentation for the installation flow. Select or package the `plugins/esri-developer-skills` directory as the plugin source where the client supports Agent Plugins 1.0.
 
-- [VS Code agent plugins](https://code.visualstudio.com/docs/agent-customization/agent-plugins)
-- [Claude Code plugins](https://code.claude.com/docs/en/plugins)
-- [GitHub Copilot for Xcode](https://github.com/github/CopilotForXcode)
-- [GitHub Copilot in JetBrains IDEs, including Android Studio](https://docs.github.com/en/copilot/how-tos/use-copilot-in-the-ide/getting-code-suggestions-in-your-ide)
-- [GitHub Copilot for Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-install-and-states)
+- [VS Code](https://code.visualstudio.com/docs/agent-customization/agent-plugins#_install-a-plugin-from-source)
+- [Claude Code](https://code.claude.com/docs/en/plugins#add-from-github)
+- [Cursor](https://cursor.com/docs/plugins#installing-plugins)
+- [Xcode](https://developer.apple.com/documentation/xcode/extending-and-customizing-agents#Install-agentic-coding-plug-ins)
+- [Kiro](https://kiro.dev/docs/powers/installation/#from-public-github-url)
 
-These references describe each client’s official installation or extension workflow.
+These references describe each client’s official installation or extension workflow. The recommended approach is to install directly from this repository.
 
 ## Validation
 
