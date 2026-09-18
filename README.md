@@ -1,3 +1,9 @@
+---
+name: Esri Developer
+description: Build GIS apps and search Esri Developer docs.
+tools: ['execute/getTerminalOutput', 'execute/runInTerminal', 'read/problems', 'read/readFile', 'read/terminalSelection', 'read/terminalLastCommand', 'edit/editFiles', 'search', 'mcp-for-esri-developers/*', vscode/askQuestions]
+---
+
 # Esri Developer Skills
 
 An [Agent Plugins 1.0](https://agent-plugins.org/specification/) package containing Esri Developer skills, the **MCP for Esri Developers** server, and a Copilot custom agent.
