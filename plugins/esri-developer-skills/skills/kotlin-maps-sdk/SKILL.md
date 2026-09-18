@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-kotlin
+name: kotlin-maps-sdk
 description: Use when building or troubleshooting native Android applications with ArcGIS Maps SDK for Kotlin.
 license: MIT
 ---

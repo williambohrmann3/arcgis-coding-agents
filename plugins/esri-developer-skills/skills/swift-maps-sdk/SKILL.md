@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-swift
+name: swift-maps-sdk
 description: Use when building or troubleshooting Apple-platform applications with ArcGIS Maps SDK for Swift.
 license: MIT
 ---

@@ -1,70 +1,47 @@
-# Agentic engineering
+# Esri Developer Skills
 
-Setting up your agentic IDE for building Esri-powered apps requires an installation of the coding skills plugin and a connection to the MCP for Esri developer documentation.
+An [Agent Plugins 1.0](https://agent-plugins.org/specification/) package containing Esri Developer skills, the **MCP for Esri Developers** server, and a Copilot custom agent.
 
-```mermaid
-flowchart TD
-	subgraph IDE["IDE"]
-		direction TB
-		Skills["/skills "]
+## Package
 
-		subgraph CodingAgent["Coding agent"]
-			direction TB
-			AgentDoc@{ shape: doc, label: "Esri Developer agent.md" }
-		end
-	end
+Use [plugins/esri-developer-skills](plugins/esri-developer-skills) as the plugin root:
 
-	MCP@{ shape: cloud, label: "MCP for Esri dev docs" }
-
-	subgraph SkillsMarketplace["Coding skills marketplace"]
-		direction LR
-		Kotlin["/kotlin"]
-		Flutter["/flutter"]
-	end
-
-	CodingAgent <--> MCP
-	CodingAgent <--> Skills
-	Skills <--> SkillsMarketplace
+```text
+plugins/esri-developer-skills/
+  plugin.json
+  skills/
+    <skill-name>/SKILL.md
+  mcp.json
+  com.github.copilot/
+    agents/
+      Esri_Developer.agent.md
 ```
 
-## Install
+The package follows the standard fixed component locations:
 
-The retained [Esri Developer agent](agents/Esri%20Developer.agent.md) provides general project discovery and MCP documentation-search guidance. Install the `esri-developer-skills` plugin to add platform and library-specific instructions.
+- `plugin.json` declares the Agent Plugins 1.0 manifest schema.
+- `skills/` contains the ArcGIS technology-specific skills.
+- `mcp.json` configures **MCP for Esri Developers** over Streamable HTTP at `https://developers-mcpdevext.arcgis.com/mcp`.
+- `com.github.copilot/` contains the VS Code and GitHub Copilot-specific custom agent extension.
 
-### GitHub Copilot CLI
+The portable standard defines skills and MCP. Client-specific extensions, including the custom agent, are interpreted by the owning client.
 
-From a local checkout:
+## Installation documentation
 
-```powershell
-copilot plugin marketplace add .
-copilot plugin install esri-developer-skills@arcgis-coding-skills
-```
+Use the client’s official documentation for the installation flow. Select or package the `plugins/esri-developer-skills` directory as the plugin source where the client supports Agent Plugins 1.0.
 
-From GitHub:
+- [VS Code](https://code.visualstudio.com/docs/agent-customization/agent-plugins#_install-a-plugin-from-source)
+- [Claude Code](https://code.claude.com/docs/en/plugins#add-from-github)
+- [Cursor](https://cursor.com/docs/plugins#installing-plugins)
+- [Xcode](https://developer.apple.com/documentation/xcode/extending-and-customizing-agents#Install-agentic-coding-plug-ins)
+- [Kiro](https://kiro.dev/docs/powers/installation/#from-public-github-url)
 
-```powershell
-copilot plugin marketplace add https://github.com/williambohrmann3/arcgis-coding-agents
-copilot plugin install esri-developer-skills@arcgis-coding-skills
-```
+These references describe each client’s official installation or extension workflow. The recommended approach is to install directly from this repository.
 
-### Claude
+## Validation
 
-From a local checkout:
+The package manifests are validated against the official [Agent Plugins 1.0 plugin schema](https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) and [MCP schema](https://agent-plugins.org/schemas/1.0.0/mcp.schema.json). After installation, verify that:
 
-```powershell
-claude plugin marketplace add .
-claude plugin install esri-developer-skills@arcgis-coding-skills
-```
-
-From GitHub:
-
-```powershell
-claude plugin marketplace add https://github.com/williambohrmann3/arcgis-coding-agents
-claude plugin install esri-developer-skills@arcgis-coding-skills
-```
-
-### Codex
-
-The repository exposes a Codex-compatible marketplace manifest at `.agents/plugins/marketplace.json`.
-
-Verify an installation with `copilot plugin list` or `claude plugin list`, then inspect available skills with `/skills list`.
+- the ArcGIS skills are discoverable;
+- **MCP for Esri Developers** is connected; and
+- the Copilot custom agent is available (if applicable).

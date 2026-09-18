@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "mcp-for-esri-developers": {
+      "url": "https://developers-mcpdevext.arcgis.com/mcp",
+      "type": "streamable-http"
+    }
+  }
+}

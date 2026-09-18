@@ -1,5 +1,7 @@
 # Esri Developer Skills
 
-Install this plugin alongside the Esri Developer agent to give your coding agent focused guidance for ArcGIS SDKs, APIs, and mapping libraries.
+This is an Agent Plugins 1.0 package containing focused guidance for ArcGIS SDKs, APIs, and mapping libraries.
 
-Each skill is loaded when its technology is relevant. The generic agent remains responsible for project discovery and using the MCP for Esri developer documentation.
+The package also includes the `mcp-for-esri-developers` MCP server configuration and the Copilot-specific Esri Developer agent. Skills are discovered from the fixed `skills/` directory; the MCP server is discovered from the package-root `mcp.json`.
+
+Each skill is loaded when its technology is relevant. The generic agent remains responsible for project discovery and using the MCP for Esri developer documentation. See the repository [README](../../README.md) for client installation and validation status.

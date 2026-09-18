@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-qt
+name: qt-maps-sdk
 description: Use when building or troubleshooting cross-platform desktop or mobile applications with ArcGIS Maps SDK for Qt.
 license: MIT
 ---

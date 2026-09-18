@@ -1,5 +1,5 @@
 ---
-name: arcgis-maps-sdk-unity
+name: unity-maps-sdk
 description: Use when building or troubleshooting Unity applications with ArcGIS Maps SDK for Unity.
 license: MIT
 ---
