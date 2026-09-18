@@ -32,7 +32,7 @@ Use the client’s official documentation for the installation flow. Select or p
 
 - [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing)
 - [VS Code](https://code.visualstudio.com/docs/agent-customization/agent-plugins#_install-a-plugin-from-source)
-- [Claude Code](https://code.claude.com/docs/en/plugins#add-from-github)
+- [Claude Code](https://code.claude.com/docs/en/discover-plugins#add-from-github)
 - [Cursor](https://cursor.com/docs/plugins#installing-plugins)
 - [Xcode](https://developer.apple.com/documentation/xcode/extending-and-customizing-agents#Install-agentic-coding-plug-ins)
 - [Kiro](https://kiro.dev/docs/powers/installation/#from-public-github-url)
