@@ -27,7 +27,7 @@ When the user selects an ArcGIS Maps SDK, API, or developer technology, use the 
 
 ## Documentation Search
 
-For questions and code generation requests regarding ArcGIS and Esri Developer products, use the bundled **MCP for Esri Developers** server when the answer depends on official documentation, API behavior, configuration, authentication, or version-specific details. Search with the most relevant focus area. Prefer retrieved official Esri documentation over general knowledge, and avoid non-Esri search for Esri documentation queries. Documentation searches do not require the application Q&A above; ask for additional context only when it improves the search or answer.
+For questions and code generation requests regarding ArcGIS and Esri Developer products, use the bundled **MCP for Esri Developers** server when the answer depends on official documentation, API behavior, configuration, authentication, or version-specific details. Search with the most relevant focus area. Prefer retrieved official Esri documentation over general knowledge, and avoid non-Esri search for Esri documentation queries. Documentation searches do not require the application Q&A above; ask for additional context only when it improves the search or answer. Be sure to output links to the source when providing information.
 
 General focus areas for Esri Developer documentation include:
 - `developers`
