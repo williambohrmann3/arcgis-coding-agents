@@ -7,13 +7,257 @@
   "version": "0.1.0",
   "plugins": [
     {
-      "name": "esri-developer-skills",
-      "description": "Coding skills for ArcGIS SDKs, APIs, and mapping libraries.",
-      "version": "0.1.0",
-      "source": "./plugins/esri-developer-skills",
+      "name": "arcgis-pro-sdk-dotnet",
+      "description": "Use when building or troubleshooting ArcGIS Pro add-ins and configurations with ArcGIS Pro SDK for .NET.",
+      "version": "0.1.1",
+      "source": "./plugins/arcgis-pro-sdk-dotnet",
       "category": "developer-tools",
-      "tags": ["arcgis", "gis", "mapping"],
-      "author": { "name": "Esri" },
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "arcgis-api-for-python",
+      "description": "Use when building, automating, administering, analyzing data with, or troubleshooting the ArcGIS API for Python.",
+      "version": "0.1.1",
+      "source": "./plugins/arcgis-api-for-python",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "calcite-design-system",
+      "description": "Use when designing or implementing accessible interfaces with Calcite Design System.",
+      "version": "0.1.1",
+      "source": "./plugins/calcite-design-system",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "cesiumjs",
+      "description": "Use when building or troubleshooting ArcGIS-integrated 3D web applications with CesiumJS.",
+      "version": "0.1.1",
+      "source": "./plugins/cesiumjs",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "dotnet-maps-sdk",
+      "description": "Use when building or troubleshooting WPF, .NET MAUI, or WinUI applications with ArcGIS Maps SDK for .NET.",
+      "version": "0.1.1",
+      "source": "./plugins/dotnet-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "esri-leaflet",
+      "description": "Use when building or troubleshooting Leaflet applications that access ArcGIS services through Esri Leaflet.",
+      "version": "0.1.1",
+      "source": "./plugins/esri-leaflet",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "flutter-maps-sdk",
+      "description": "Use when building or troubleshooting Android or iOS applications with ArcGIS Maps SDK for Flutter.",
+      "version": "0.1.1",
+      "source": "./plugins/flutter-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "javascript-maps-sdk",
+      "description": "Use when building or troubleshooting web applications with ArcGIS Maps SDK for JavaScript and its web component libraries.",
+      "version": "0.1.1",
+      "source": "./plugins/javascript-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "kotlin-maps-sdk",
+      "description": "Use when building or troubleshooting native Android applications with ArcGIS Maps SDK for Kotlin.",
+      "version": "0.1.1",
+      "source": "./plugins/kotlin-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "maplibre-arcgis",
+      "description": "Use when building or troubleshooting MapLibre GL JS applications that use ArcGIS services.",
+      "version": "0.1.1",
+      "source": "./plugins/maplibre-arcgis",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "openlayers",
+      "description": "Use when building or troubleshooting OpenLayers applications that integrate ArcGIS services.",
+      "version": "0.1.1",
+      "source": "./plugins/openlayers",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "qt-maps-sdk",
+      "description": "Use when building or troubleshooting cross-platform desktop or mobile applications with ArcGIS Maps SDK for Qt.",
+      "version": "0.1.1",
+      "source": "./plugins/qt-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "swift-maps-sdk",
+      "description": "Use when building or troubleshooting Apple-platform applications with ArcGIS Maps SDK for Swift.",
+      "version": "0.1.1",
+      "source": "./plugins/swift-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "unity-maps-sdk",
+      "description": "Use when building or troubleshooting Unity applications with ArcGIS Maps SDK for Unity.",
+      "version": "0.1.1",
+      "source": "./plugins/unity-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
+      "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+      "license": "MIT"
+    },
+    {
+      "name": "unreal-maps-sdk",
+      "description": "Use when building or troubleshooting Unreal Engine applications with ArcGIS Maps SDK for Unreal Engine.",
+      "version": "0.1.1",
+      "source": "./plugins/unreal-maps-sdk",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "gis",
+        "mapping"
+      ],
+      "author": {
+        "name": "Esri"
+      },
       "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
       "license": "MIT"
     }

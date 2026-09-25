@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "javascript-maps-sdk",
+  "description": "Use when building or troubleshooting web applications with ArcGIS Maps SDK for JavaScript and its web component libraries.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Esri"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+  "keywords": [
+    "arcgis",
+    "gis",
+    "mapping",
+    "developer-tools"
+  ]
+}

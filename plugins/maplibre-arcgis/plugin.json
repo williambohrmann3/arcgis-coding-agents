@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "maplibre-arcgis",
+  "description": "Use when building or troubleshooting MapLibre GL JS applications that use ArcGIS services.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Esri"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/williambohrmann3/arcgis-coding-agents",
+  "keywords": [
+    "arcgis",
+    "gis",
+    "mapping",
+    "developer-tools"
+  ]
+}
