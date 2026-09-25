@@ -1,18 +1,18 @@
 # Esri Developer Skills
 
-Technology-specific [Agent Plugins 1.0](https://agent-plugins.org/specification/) packages containing Esri Developer documentation guidance and the **MCP for Esri Developers** server.
+[Agent Plugins](https://agent-plugins.org/specification/) for Esri Developer skills and the **MCP for Esri Developers** server.
 
 ## Plugins
 
-Each plugin is named after its ArcGIS SDK, API, or mapping library and contains three skills, where `x` is the plugin name:
+Choose a plugin for the SDK, API, or mapping library you use. Each includes technology-specific development guidance and a connection to **MCP for Esri Developers**.
 
-- `search-x-docs`: technology-specific documentation guidance.
-- `follow-x-best-practices`: placeholder for best-practice guidance.
-- `build-a-starter-x-<kind>`: placeholder for starter guidance, using the naming rules below.
+Each plugin contains three skills:
 
-Starter skill names use `script` for ArcGIS API for Python, `extension` for ArcGIS Pro SDK for .NET, and `app` for Maps SDKs and MapLibre. Other plugins use `mapping-app`.
+- **Documentation search:** find relevant Esri Developer documentation.
+- **Best practices:** apply technology-specific recommendations to your project.
+- **Starter projects:** build an app, Python script, or ArcGIS Pro extension.
 
-The two placeholder skills do not yet provide implementation guidance. Install the plugins relevant to your project:
+### Available Plugins
 
 - [arcgis-pro-sdk-dotnet](plugins/arcgis-pro-sdk-dotnet): ArcGIS Pro SDK for .NET
 - [arcgis-api-for-python](plugins/arcgis-api-for-python): ArcGIS API for Python
@@ -47,7 +47,7 @@ plugins/<plugin-name>/
 Each package follows the standard fixed component locations:
 
 - `plugin.json` declares the Agent Plugins 1.0 manifest schema.
-- `skills/` contains the documentation search skill and the two placeholder skills, each in a folder matching its skill name.
+- `skills/` contains the documentation search, best-practices, and starter-project skills, each in a folder matching its skill name.
 - `mcp.json` configures **MCP for Esri Developers** over Streamable HTTP at `https://developers-mcpdevext.arcgis.com/mcp`.
 
 The packages include only portable skills and MCP configuration. No GitHub Copilot prompt or custom agent extension is included.
