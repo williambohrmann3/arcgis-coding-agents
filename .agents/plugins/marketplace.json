@@ -5,6 +5,30 @@
   },
   "plugins": [
     {
+      "name": "arcgis-location-platform",
+      "source": {
+        "source": "local",
+        "path": "./plugins/arcgis-location-platform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "arcgis-enterprise",
+      "source": {
+        "source": "local",
+        "path": "./plugins/arcgis-enterprise"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "arcgis-pro-sdk-dotnet",
       "source": {
         "source": "local",

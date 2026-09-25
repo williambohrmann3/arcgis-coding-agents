@@ -4,16 +4,20 @@
 
 ## Plugins
 
-Choose a plugin for the SDK, API, or mapping library you use. Each includes technology-specific development guidance and a connection to **MCP for Esri Developers**.
+Choose a plugin for the ArcGIS product, SDK, API, or mapping library you use. Each includes technology-specific development guidance and a connection to **MCP for Esri Developers**.
 
-Each plugin contains three skills:
+Plugins contain the following skills:
 
 - **Documentation search:** find relevant Esri Developer documentation.
 - **Best practices:** apply technology-specific recommendations to your project.
 - **Starter projects:** build an app, Python script, or ArcGIS Pro extension.
 
+The ArcGIS Location Platform and ArcGIS Enterprise plugins include documentation search only.
+
 ### Available Plugins
 
+- [arcgis-location-platform](plugins/arcgis-location-platform): ArcGIS Location Platform
+- [arcgis-enterprise](plugins/arcgis-enterprise): ArcGIS Enterprise
 - [arcgis-pro-sdk-dotnet](plugins/arcgis-pro-sdk-dotnet): ArcGIS Pro SDK for .NET
 - [arcgis-api-for-python](plugins/arcgis-api-for-python): ArcGIS API for Python
 - [calcite-design-system](plugins/calcite-design-system): Calcite Design System
@@ -30,31 +34,9 @@ Each plugin contains three skills:
 - [unity-maps-sdk](plugins/unity-maps-sdk): ArcGIS Maps SDK for Unity
 - [unreal-maps-sdk](plugins/unreal-maps-sdk): ArcGIS Maps SDK for Unreal Engine
 
-## Package Layout
-
-Use the selected `plugins/<plugin-name>` directory as the plugin root:
-
-```text
-plugins/<plugin-name>/
-  plugin.json
-  skills/
-    search-<plugin-name>-docs/SKILL.md
-    follow-<plugin-name>-best-practices/SKILL.md
-    build-a-starter-<plugin-name>-<kind>/SKILL.md
-  mcp.json
-```
-
-Each package follows the standard fixed component locations:
-
-- `plugin.json` declares the Agent Plugins 1.0 manifest schema.
-- `skills/` contains the documentation search, best-practices, and starter-project skills, each in a folder matching its skill name.
-- `mcp.json` configures **MCP for Esri Developers** over Streamable HTTP at `https://developers-mcpdevext.arcgis.com/mcp`.
-
-The packages include only portable skills and MCP configuration. No GitHub Copilot prompt or custom agent extension is included.
-
 ## Installation documentation
 
-Use the client’s official documentation for the installation flow. Select or package the desired `plugins/<plugin-name>` directory as the plugin source where the client supports Agent Plugins 1.0. The repository catalogs list all 15 plugins individually.
+Use the client’s official documentation for the installation flow to install the desired plugin(s).
 
 - [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing)
 - [VS Code](https://code.visualstudio.com/docs/agent-customization/agent-plugins#_install-a-plugin-from-source)
@@ -69,5 +51,5 @@ These references describe each client’s official installation or extension wor
 
 Validate package manifests against the official [Agent Plugins 1.0 plugin schema](https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) and [MCP schema](https://agent-plugins.org/schemas/1.0.0/mcp.schema.json). After installation, verify that:
 
-- each installed plugin's three skills are discoverable; and
+- each installed plugin's included skills are discoverable; and
 - **MCP for Esri Developers** is connected.
