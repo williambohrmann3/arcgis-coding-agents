@@ -8,7 +8,9 @@ Each plugin is named after its ArcGIS SDK, API, or mapping library and contains 
 
 - `search-x-docs`: technology-specific documentation guidance.
 - `follow-x-best-practices`: placeholder for best-practice guidance.
-- `build-a-starter-x-mapping-app`: placeholder for starter mapping app guidance.
+- `build-a-starter-x-<kind>`: placeholder for starter guidance, using the naming rules below.
+
+Starter skill names use `script` for ArcGIS API for Python, `extension` for ArcGIS Pro SDK for .NET, and `app` for Maps SDKs and MapLibre. Other plugins use `mapping-app`.
 
 The two placeholder skills do not yet provide implementation guidance. Install the plugins relevant to your project:
 
@@ -38,7 +40,7 @@ plugins/<plugin-name>/
   skills/
     search-<plugin-name>-docs/SKILL.md
     follow-<plugin-name>-best-practices/SKILL.md
-    build-a-starter-<plugin-name>-mapping-app/SKILL.md
+    build-a-starter-<plugin-name>-<kind>/SKILL.md
   mcp.json
 ```
 
